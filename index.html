@@ -41,7 +41,7 @@
     const params = new URLSearchParams(window.location.search);
 
     // Lifetime (seconds): ?life=10
-    const lifetime = Math.max(0.5, parseFloat(params.get('life')) || 10);
+    const lifetime = Math.max(0.5, parseFloat(params.get('life')) || 5);
 
     // Single color (agents + trail)
     const COLOR = '#FFFFFF'; // blue
